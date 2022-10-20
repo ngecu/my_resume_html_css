@@ -1,0 +1,203 @@
+.container {
+    display: grid;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    max-width: 1140px;
+    margin-right: auto;
+    margin-left: auto;
+
+    .wrapper{
+        display: flex;
+    
+      .markers{
+          display: flex;
+          flex-direction: column;
+    
+          .header-marker{
+              position: relative;
+              top: 2%;
+              width: 70px;
+              height: 95px;
+              background-color: rgb(32, 28, 28);
+          }
+    
+          .marker-side{
+            position: relative;
+            width: 70px;
+            height: 80px;
+            background-color: rgb(250, 33, 33);
+        }
+        .education1{
+            
+            top: 27%;
+        }
+        .education2{
+            top: 29%;
+        }
+    
+        .education3{
+            top: 32%;
+        }
+    
+        .work1{
+            top: 43%;
+        }
+    
+        .work2{
+            top: 55%;
+        }
+    
+        .work3{
+            top: 64%;
+        }
+      }
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-areas:
+          'header header '
+          'languages languages'
+          'education skills'
+          'education projects'
+          'work projects'
+          'work-start certificates'
+          'footer footer'
+          ;
+          
+          ;
+        gap: 10px;
+        padding: 10px;
+        width: 100%;
+
+         
+  
+  .item1 { grid-area: header; }
+  .item2 { grid-area: education; }
+  .item3 { grid-area: skills; }
+  .item4 { grid-area: work; }
+  .item5 { grid-area: projects; }
+  .item6 { grid-area: certificates; }
+  .item7 { grid-area: languages; }
+  .item8 {grid-area: footer;text-align: center;}
+
+  .header {
+    border-bottom: solid 5px black;
+    display: grid;
+    grid-template-columns: 40% 17% 30%;
+    gap: 5%;
+    a{
+      text-decoration: none;
+      color: black;
+    }
+    img {
+        border-radius: 50%;
+        width: 100%;
+        height: 200px;
+        border: solid 2px black;
+        position: relative;
+        top: 10%;
+      }
+
+    ul{
+    list-style: none;
+    li{
+        line-height: 40px;
+        &::before{
+            content: "";
+        }
+    }
+}
+
+
+}
+
+
+ul li {
+  
+    line-height: 30px;
+    &::before {
+        content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+        color: red; /* Change the color */
+        font-weight: bold; /* If you want it to be bold */
+        display: inline-block; /* Needed to add space between the bullet and the text */
+        width: 1em; /* Also needed for space (tweak if needed) */
+        margin-left: -1em; /* Also needed for space (tweak if needed) */
+      }
+
+  }
+  .left{
+      text-align: left;
+  }
+  .right {
+    text-align: right;
+  }
+
+span {
+    color: rgba(0, 0, 0, 0.55);
+  }
+  table{
+    width: 100%;
+}
+h2,.date {
+  color: rgb(250, 33, 33);
+}
+
+img{
+    width: 100%;
+}
+  
+.badge {
+    background-color: grey;
+    color: white;
+    text-transform: uppercase;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 10px 10px;
+    order: 0; 
+  }
+
+
+
+  
+  
+  .badges,.flex{
+    display: flex;
+    -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.namecareer{
+    display: flex;
+}
+
+
+.flex{
+    display: flex;
+    div{
+        width: 50%;
+    }
+}
+
+      }
+
+
+   
+
+  
+  
+  
+
+    
+  
+    
+  
+
+  
+  
+ 
+  
+
+
+  }
+  
